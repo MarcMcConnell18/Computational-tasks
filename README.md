@@ -20,11 +20,11 @@ pip install matplotlib
 pip install sounddevice
 pip install tqdm
 ```
-For more details check [here](https://pypi.org/project/numpy/) for installing numpy
-For more details check [here](https://pypi.org/project/scipy/) for installing scipy
-For more details check [here](https://pypi.org/project/matplotlib/) for installing matplotlib
-For more details check [here](https://pypi.org/project/sounddevice/) for installing sounddevice
-For more details check [here](https://pypi.org/project/tqdm/) for installing tqdm
+For more details check [here](https://pypi.org/project/numpy/) for installing numpy;
+For more details check [here](https://pypi.org/project/scipy/) for installing scipy;
+For more details check [here](https://pypi.org/project/matplotlib/) for installing matplotlib;
+For more details check [here](https://pypi.org/project/sounddevice/) for installing sounddevice;
+For more details check [here](https://pypi.org/project/tqdm/) for installing tqdm;
 
 ## Usage
 1. Place the degraded audio file('degraded.wav') and the clean audio file(realrealreal_clean.wav) in the same directory as the script.
