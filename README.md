@@ -66,23 +66,23 @@ There is a unit test class 'TestMedianFunctions' which currently contains a sing
 
 **Results**
 
-1. Find the best window length 
+1. Find the best window length:
 For the median filter, different lengths were explored to test the effectiveness of the restoration. In particular, from 3 to 35, every odd number was tested and 3 was observed to deliver the lowest MSE, which is 0.0041697141. 
 For the cubic spline filter, I use the same numbers to test the MSE. 3 also is the best, the lowest MSE is 0.0034245923. 
 The comparison of two methods is as shown in the figure below.
 
 ![mse_compare](https://i.imgur.com/ZsGPxHd.png)
 
-2. Using the median filter and cubic spline filter
+2. Using the median filter and cubic spline filter:
 The result of two filters is shown below. We can clear see that all the clicks are removed and the restored audio signals are look same as the clean audio signal.
 ![results_signal](https://i.imgur.com/IYQprhE.png)
 
-3. MSE and runtime
+3. MSE and runtime:
 The MSE for median filter is 0.0041697141 and the MSE for cubic spline is 0.0034245923.
 Comparing the two different interpolation methods, we notice that method cubic spline achieves a lower MSE.
 The runtime of median filter method is 0.004983425140380859s, the runtime of cubic spline method is 0.014949560165405273s.
 
-4. Listen
+4. Listen:
 After listening to the two restored files, we notice that all the clicks has been removed and the results of two filters sounds like no difference.
 
 ---
