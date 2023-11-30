@@ -127,13 +127,13 @@ print("The MSE for cubic spline is:", error2)
 wavfile.write('output_medianfilter.wav', sample_rate1, restored1)
 wavfile.write('output_cubicspline.wav', sample_rate1, restored2)
 
-# play the audio
-# sd.play(wavsignal, sample_rate1)
-# sd.wait()
-# sd.play(restored1, sample_rate1)
-# sd.wait()
-# sd.play(restored2, sample_rate1)
-# sd.wait()
+play the audio
+sd.play(wavsignal, sample_rate1)
+sd.wait()
+sd.play(restored1, sample_rate1)
+sd.wait()
+sd.play(restored2, sample_rate1)
+sd.wait()
 
 
 # unit test
